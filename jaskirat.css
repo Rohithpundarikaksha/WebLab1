@@ -18,7 +18,7 @@ body{
 }
 
 nav{
-    background: #333;
+
     color: #fff;
     padding: 1rem;
 }
@@ -48,4 +48,54 @@ nav ul li{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+
+.header-image{
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hr-black{
+    border: 1px solid #000;
+    width: 50%;
+
+}
+
+.box-body{
+    border: 1px solid black;
+    background-color: rgb(225, 224, 177);
+}
+
+.box-body-jas{
+    border: 1px solid black;
+    background-color: rgba(57, 73, 56, 0.602);
+  
+}
+
+
+.box-main{
+
+    background: rgba(215, 170, 170, 0.5);
+   border: 1px solid black;
+   margin: 20px ;
+   padding: 20px;
+}
+
+.inner-box-header{
+    color: rgb(91, 44, 44);
+}
+
+
+.image-outline{
+    border: 1px solid black;
+    width: 250px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
